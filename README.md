@@ -79,4 +79,3 @@ pytest -q
 cd apps/web && npm run lint && npm test -- --run && npm run build
 ```
 
-GitHub Actions repeats these checks on pull requests and pushes to `main`.
